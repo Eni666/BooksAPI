@@ -19,10 +19,10 @@ namespace BooksAPI.Services
         }
 
         /// <summary>
-        /// 
+        /// Finds and sorts books by specified field and value.
         /// </summary>
-        /// <param name="searchField"></param>
-        /// <param name="searchValue"></param>
+        /// <param name="searchField">Field</param>
+        /// <param name="searchValue">Value of field</param>
         /// <returns></returns>
         public IEnumerable<Book> FindBooksByField(string searchField, string searchValue)
         {
